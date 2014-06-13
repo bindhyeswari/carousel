@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            border: 1px solid red;
+            float: left;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        li {
+            height: 300px;
+            width: 300px;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+        li:nth-child(2n){
+            background-color: red;
+        }
+        li:nth-child(2n+1){
+            background-color: green;
+        }
+        ul {
+            width: 900px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <ul>
+            <li>Slide 1</li>
+            <li>Slide 2</li>
+            <li>Slide 3</li>
+        </ul>
+    </div>
+
+</body>
+</html>
